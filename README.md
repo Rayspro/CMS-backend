@@ -12,7 +12,7 @@ SERVER_PORT=<Port for server>
 MNG_URL= <Mongo DB URL>
 
 # JWT secret
-JWT_SECRET=CMS@1993
+JWT_SECRET=<Strong JWT secret>
 
 # Hash for passwords encryption
 HASH= <Strong secret>
