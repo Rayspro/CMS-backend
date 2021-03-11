@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.root{
+    width: 100vw;
+    height: 100vh;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.root span{
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: grey;
+    user-select: none;
+}
+
+.root a{
+    margin-top: 50px;
+    user-select: none;
+    /* background-color: grey; */
+    padding:10px 20px;
+    font-size: larger;
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+    transition: all 100ms linear;
+}
+
+.logo{
+    position: fixed;
+    top: 30px;
+    left: 30px;
+}
+
+.logo div{
+    font-weight: bold;
+    font-size: 2.5rem;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.root a:hover{
+    transform: scale(1.05);
+}
